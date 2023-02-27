@@ -8,16 +8,15 @@ function Header() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
-        position='static'
+        position='fixed'
         sx={{
-          height: '100%',
           display: 'flex',
           justifyContent: 'center',
-          backgroundColor: '#ff1440',
+          backgroundColor: '#2564cf',
         }}>
         <Toolbar>
-          <Typography variant='h4' component='div' sx={{ flexGrow: 1 }}>
-            Task List
+          <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
+            To Do
           </Typography>
         </Toolbar>
       </AppBar>

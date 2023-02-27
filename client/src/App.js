@@ -9,11 +9,11 @@ function App() {
   return (
     <>
       <CssBaseline />
-      <Container maxWidth='xl'>
+      <Container maxWidth='xl' sx={{ width: '100vw', height: '100vh' }}>
         <Box
           sx={{
-            bgcolor: '#FFFFFF',
-            height: '15vh',
+            width: '100vw',
+            height: '10%',
             display: 'flex',
             justifyContent: 'center',
           }}>
@@ -21,7 +21,8 @@ function App() {
         </Box>
         <Box
           sx={{
-            height: '85vh',
+            border: 'solid',
+            height: '90%',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
