@@ -19,12 +19,7 @@ function App() {
             margin: 0,
             padding: 0,
             height: '100vh',
-          }}>
-          {/* <Grid container>
-              <sideNav />
-              <Main />
-            </Grid> */}
-        </Box>
+          }}></Box>
       </Box>
     </>
   );
