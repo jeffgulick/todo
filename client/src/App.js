@@ -2,6 +2,7 @@ import './App.css';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
 import Header from './components/Header.js';
+import Main from './Pages/Main.js';
 
 function App() {
   return (
@@ -19,7 +20,11 @@ function App() {
             margin: 0,
             padding: 0,
             height: '100vh',
-          }}></Box>
+          }}>
+          {/* <Drawer />
+            <Main /> */}
+          <Main />
+        </Box>
       </Box>
     </>
   );

@@ -4,7 +4,8 @@ import FloatingButton from '../components/FloatingButton';
 const Main = () => {
   return (
     <div>
-      <FloatingButton />
+      {/* <Router /> */}
+      Router and pages
     </div>
   );
 };
